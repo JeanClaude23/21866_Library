@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  *
  * @author jean claude
  */
-public class Client {
+public class ClientRMI {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.getRegistry("localhost", 2000);
@@ -25,7 +25,7 @@ public class Client {
             boolean result = clientservice.save("0002", "jean_RMI", "CLAUDE", "0788908856", "jean@gmail.com", "Staff", "C:\\Users\\jean claude\\Pictures\\Saved Pictures\\New folder\\black-r1-5784");
             System.out.println(result ? "Saved Successfully" : "Error. can't saved");
         } catch (RemoteException | NotBoundException ex) {
-            Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(ClientRMI.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }
