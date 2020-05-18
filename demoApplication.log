@@ -6596,3 +6596,1250 @@
 [AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [Library.Model.Bookcategory#10]
 [AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [Library.Model.Bookcategory#11]
 [AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [Library.Model.Bookcategory#11]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@32b5e4e6
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@32b5e4e6
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@32b5e4e6
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5d802d62
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@2de5c908
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration yes_no -> org.hibernate.type.YesNoType@405aeaf1
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@26f8bfb4
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@26f8bfb4
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@26f8bfb4
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration character -> org.hibernate.type.CharacterType@1939e736
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char -> org.hibernate.type.CharacterType@1939e736
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1939e736
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@3755db27
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@3755db27
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3755db27
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration integer -> org.hibernate.type.IntegerType@2e5c57a8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration int -> org.hibernate.type.IntegerType@2e5c57a8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2e5c57a8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@56e9fe9d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@56e9fe9d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@56e9fe9d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@529ff09e
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@529ff09e
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@529ff09e
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@76095636
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@76095636
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@76095636
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@25397bd0
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@25397bd0
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3eb958ff
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3eb958ff
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration string -> org.hibernate.type.StringType@72229543
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.String -> org.hibernate.type.StringType@72229543
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@d1b55ca
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@53960590
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration url -> org.hibernate.type.UrlType@72a148b7
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@72a148b7
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration date -> org.hibernate.type.DateType@7d7af498
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@7d7af498
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration time -> org.hibernate.type.TimeType@395eb24a
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@395eb24a
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timestamp -> org.hibernate.type.TimestampType@48511ad7
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@48511ad7
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@48511ad7
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@7c1bc4ed
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar -> org.hibernate.type.CalendarType@1890b31d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1890b31d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1890b31d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3fe86610
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration locale -> org.hibernate.type.LocaleType@c8230ec
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@c8230ec
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration currency -> org.hibernate.type.CurrencyType@202a39ee
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@202a39ee
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@5abdb7b8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5abdb7b8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration class -> org.hibernate.type.ClassType@6650020f
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6650020f
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@4b679140
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@4b679140
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7b9ad28f
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@64e0eaa4
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration binary -> org.hibernate.type.BinaryType@412aad5a
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte[] -> org.hibernate.type.BinaryType@412aad5a
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [B -> org.hibernate.type.BinaryType@412aad5a
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5d33c5bb
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5d33c5bb
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5d33c5bb
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration image -> org.hibernate.type.ImageType@78c90599
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration characters -> org.hibernate.type.CharArrayType@427248a5
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char[] -> org.hibernate.type.CharArrayType@427248a5
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [C -> org.hibernate.type.CharArrayType@427248a5
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7b90d307
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7b90d307
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7b90d307
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration text -> org.hibernate.type.TextType@4e38b295
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ntext -> org.hibernate.type.NTextType@5f36e44d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration blob -> org.hibernate.type.BlobType@6c2df060
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6c2df060
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@a9490e8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration clob -> org.hibernate.type.ClobType@205e071e
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@205e071e
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nclob -> org.hibernate.type.NClobType@3a0f6982
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3a0f6982
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5802b9f1
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@55d3761f
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration serializable -> org.hibernate.type.SerializableType@1c8fc315
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration object -> org.hibernate.type.ObjectType@2873440
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2873440
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4a5d7e97
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@714376a8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1aecb9dd
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@33651af3
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@12ed73ce
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@78f1b10d
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7acdd9f
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1c05fd1b
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.1.Final}
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+[RMI TCP Connection(2)-192.168.56.1] WARN  org.hibernate.internal.util.xml.DTDEntityResolver  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Attempting to resolve on classpath under org/hibernate/
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.driver_class=org.postgresql.Driver
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.url=jdbc:postgresql://localhost:5432/librarySystem
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.username=postgres
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.password=21866
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.pool_size=20
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Client.hbm.xml] for mapping
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Client.hbm.xml
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Bookcategory.hbm.xml] for mapping
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Bookcategory.hbm.xml
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Login.hbm.xml] for mapping
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Login.hbm.xml
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Checkout.hbm.xml] for mapping
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Checkout.hbm.xml
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Book.hbm.xml] for mapping
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Book.hbm.xml
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Properties: {hibernate.connection.password=21866, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_111\jre\bin, java.vm.version=25.111-b14, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation, java.runtime.version=1.8.0_111-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\JEANCL~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\jean claude\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jean claude\AppData\Local\GitHubDesktop\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, hibernate.connection.pool_size=20, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\jean claude, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.driver_class=org.postgresql.Driver, java.class.path=D:\2020 tutorial\Java\Java\jcalendar-1.4.jar\jcalendar-1.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\postgresql-9.4.1209.jar;D:\2020 tutorial\Java\rs2xml\rs2xml.jar;E:\Java\jar_files\bcrypt-0.4.1.jar;E:\Java\jar_files\bytes-0.4.6.jar;E:\Java\jar_files (1)\jBCrypt-0.4.1.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derbyclient.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derby.jar;D:\poi-4.1.2\lib\SparseBitSet-1.2.jar;D:\poi-4.1.2\lib\activation-1.1.1.jar;D:\poi-4.1.2\lib\commons-codec-1.13.jar;D:\poi-4.1.2\lib\commons-collections4-4.4.jar;D:\poi-4.1.2\lib\commons-compress-1.19.jar;D:\poi-4.1.2\lib\commons-logging-1.2.jar;D:\poi-4.1.2\lib\commons-math3-3.6.1.jar;D:\poi-4.1.2\lib\jaxb-api-2.3.1.jar;D:\poi-4.1.2\lib\jaxb-core-2.3.0.1.jar;D:\poi-4.1.2\lib\jaxb-impl-2.3.2.jar;D:\poi-4.1.2\lib\junit-4.12.jar;D:\poi-4.1.2\lib\log4j-1.2.17.jar;D:\poi-4.1.2\ooxml-lib\curvesapi-1.06.jar;D:\poi-4.1.2\ooxml-lib\xmlbeans-3.1.0.jar;D:\poi-4.1.2\poi-4.1.2.jar;D:\poi-4.1.2\poi-examples-4.1.2.jar;D:\poi-4.1.2\poi-excelant-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-schemas-4.1.2.jar;D:\poi-4.1.2\poi-scratchpad-4.1.2.jar;E:\log4j-1.2.17.jar;C:\Users\jean claude\Downloads\Compressed\itextpdf-5.1.0.jar\itextpdf-5.1.0.jar;C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation\build\classes, user.name=jean claude, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.java.command=Library.Dao.RMI.Server, java.home=C:\Program Files\Java\jdk1.8.0_111\jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:postgresql://localhost:5432/librarySystem, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_111, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.service.spi.ServiceBinding  - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Preparing to build session factory with filters : {}
+[RMI TCP Connection(2)-192.168.56.1] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/librarySystem]
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=postgres, password=21866}
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Initializing Connection pool with 1 Connections
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Database ->
+       name : PostgreSQL
+    version : 11.2
+      major : 11
+      minor : 2
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Driver ->
+       name : PostgreSQL Native Driver
+    version : PostgreSQL 9.4.1209
+      major : 9
+      minor : 4
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - JDBC version : 4.0
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.cursor.internal.StandardRefCursorSupport  - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Client -> client
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: regno -> regno
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: firstName -> first_name
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: lastName -> last_name
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: phoneNumber -> phone_number
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: emailAddress -> email_address
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: clientCategory -> client_category
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: image -> image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Bookcategory -> bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: categoryid -> categoryid
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: categoryname -> categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Login -> login
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: password -> password
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: username -> username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Checkout -> checkout
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: clientname -> clientname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: bookname -> bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: author -> author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: returndate -> returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: status -> status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Book -> book
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: bookId -> book_id
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: title -> title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: publishinghouse -> publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: dateofpublication -> dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: author -> author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: pages -> pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: bookcategory -> bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - No JtaPlatform was specified, checking resolver
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator  - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver  - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Wrap result sets: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - multi-tenancy strategy : NONE
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Using BatchFetchStyle : LEGACY
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Default null ordering: none
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+[RMI TCP Connection(2)-192.168.56.1] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator  - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache direct-reference entries: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic eviction of collection cache: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - Allow initialization of lazy state outside session : : disabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.cfg.SettingsFactory  - JTA Track by Thread: enabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.SessionFactoryImpl  - Building session factory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.SessionFactoryImpl  - Session factory constructed with filter configurations : {}
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=21866, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_111\jre\bin, java.vm.version=25.111-b14, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation, java.runtime.version=1.8.0_111-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\JEANCL~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\jean claude\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jean claude\AppData\Local\GitHubDesktop\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, hibernate.connection.pool_size=20, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\jean claude, user.timezone=, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.8, file.encoding=UTF-8, hibernate.connection.driver_class=org.postgresql.Driver, user.name=jean claude, java.class.path=D:\2020 tutorial\Java\Java\jcalendar-1.4.jar\jcalendar-1.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\postgresql-9.4.1209.jar;D:\2020 tutorial\Java\rs2xml\rs2xml.jar;E:\Java\jar_files\bcrypt-0.4.1.jar;E:\Java\jar_files\bytes-0.4.6.jar;E:\Java\jar_files (1)\jBCrypt-0.4.1.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derbyclient.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derby.jar;D:\poi-4.1.2\lib\SparseBitSet-1.2.jar;D:\poi-4.1.2\lib\activation-1.1.1.jar;D:\poi-4.1.2\lib\commons-codec-1.13.jar;D:\poi-4.1.2\lib\commons-collections4-4.4.jar;D:\poi-4.1.2\lib\commons-compress-1.19.jar;D:\poi-4.1.2\lib\commons-logging-1.2.jar;D:\poi-4.1.2\lib\commons-math3-3.6.1.jar;D:\poi-4.1.2\lib\jaxb-api-2.3.1.jar;D:\poi-4.1.2\lib\jaxb-core-2.3.0.1.jar;D:\poi-4.1.2\lib\jaxb-impl-2.3.2.jar;D:\poi-4.1.2\lib\junit-4.12.jar;D:\poi-4.1.2\lib\log4j-1.2.17.jar;D:\poi-4.1.2\ooxml-lib\curvesapi-1.06.jar;D:\poi-4.1.2\ooxml-lib\xmlbeans-3.1.0.jar;D:\poi-4.1.2\poi-4.1.2.jar;D:\poi-4.1.2\poi-examples-4.1.2.jar;D:\poi-4.1.2\poi-excelant-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-schemas-4.1.2.jar;D:\poi-4.1.2\poi-scratchpad-4.1.2.jar;E:\log4j-1.2.17.jar;C:\Users\jean claude\Downloads\Compressed\itextpdf-5.1.0.jar\itextpdf-5.1.0.jar;C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation\build\classes, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.8.0_111\jre, sun.java.command=Library.Dao.RMI.Server, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, hibernate.connection.url=jdbc:postgresql://localhost:5432/librarySystem, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_111, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.secure.spi.JaccIntegrator  - Skipping JACC integration as it was not enabled
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Client
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select regno from public.client where regno =?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select client_.regno, client_.first_name as first_na2_3_, client_.last_name as last_nam3_3_, client_.phone_number as phone_nu4_3_, client_.email_address as email_ad5_3_, client_.client_category as client_c6_3_, client_.image as image7_3_ from public.client client_ where client_.regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.client (first_name, last_name, phone_number, email_address, client_category, image, regno) values (?, ?, ?, ?, ?, ?, ?)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.client set first_name=?, last_name=?, phone_number=?, email_address=?, client_category=?, image=? where regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.client where regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4802c4b9]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [NONE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35801642]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [READ]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@238daba0]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [UPGRADE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3115e920]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [UPGRADE_NOWAIT]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74442e74]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [UPGRADE_SKIPLOCKED]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@786919eb]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [FORCE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@452804c3]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [PESSIMISTIC_READ]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for share
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4ea95074]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [PESSIMISTIC_WRITE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e54c61a]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [PESSIMISTIC_FORCE_INCREMENT]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9068398]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [OPTIMISTIC]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54cdb83f]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [OPTIMISTIC_FORCE_INCREMENT]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Client: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Client: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Book
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select book_id from public.book where book_id =?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select book_.book_id, book_.title as title2_0_, book_.publishinghouse as publishi3_0_, book_.dateofpublication as dateofpu4_0_, book_.author as author5_0_, book_.pages as pages6_0_, book_.bookcategory as bookcate7_0_ from public.book book_ where book_.book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.book (title, publishinghouse, dateofpublication, author, pages, bookcategory, book_id) values (?, ?, ?, ?, ?, ?, ?)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.book set title=?, publishinghouse=?, dateofpublication=?, author=?, pages=?, bookcategory=? where book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.book where book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4d21a211]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [NONE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f89e017]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [READ]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@328bf5a2]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [UPGRADE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5ed15bdc]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [UPGRADE_NOWAIT]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@164320b6]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [UPGRADE_SKIPLOCKED]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@44a0bb57]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [FORCE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3b9850f2]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [PESSIMISTIC_READ]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for share
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38f6f3a]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [PESSIMISTIC_WRITE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7aafabb8]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [PESSIMISTIC_FORCE_INCREMENT]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6086658f]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [OPTIMISTIC]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2fd5f7d7]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [OPTIMISTIC_FORCE_INCREMENT]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Book: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Book: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Bookcategory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select categoryid from public.bookcategory where categoryid =?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select bookcatego_.categoryid, bookcatego_.categoryname as category2_1_ from public.bookcategory bookcatego_ where bookcatego_.categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.bookcategory (categoryname, categoryid) values (?, ?)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.bookcategory set categoryname=? where categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.bookcategory where categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2585cc0c]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [NONE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e3dfe95]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [READ]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@10100ea1]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [UPGRADE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4908edc0]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [UPGRADE_NOWAIT]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@30497a9b]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [UPGRADE_SKIPLOCKED]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@15122308]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [FORCE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2ee114cd]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [PESSIMISTIC_READ]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for share
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6481bfca]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [PESSIMISTIC_WRITE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e018532]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [PESSIMISTIC_FORCE_INCREMENT]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@595316b5]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [OPTIMISTIC]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@76c871e8]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [OPTIMISTIC_FORCE_INCREMENT]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Bookcategory: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Bookcategory: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Checkout
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select clientname from public.checkout where clientname =?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select checkout_.clientname, checkout_.bookname as bookname2_2_, checkout_.author as author3_2_, checkout_.returndate as returnda4_2_, checkout_.status as status5_2_ from public.checkout checkout_ where checkout_.clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.checkout (bookname, author, returndate, status, clientname) values (?, ?, ?, ?, ?)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.checkout set bookname=?, author=?, returndate=?, status=? where clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.checkout where clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b32ab20]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [NONE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@58f6db06]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [READ]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@238053f6]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [UPGRADE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50f4025]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [UPGRADE_NOWAIT]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1553d173]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [UPGRADE_SKIPLOCKED]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7d3f3f7c]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [FORCE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2b8364e3]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [PESSIMISTIC_READ]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for share
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f366d3f]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [PESSIMISTIC_WRITE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@48db1675]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [PESSIMISTIC_FORCE_INCREMENT]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c19355e]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [OPTIMISTIC]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5aa77ae7]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [OPTIMISTIC_FORCE_INCREMENT]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Checkout: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Checkout: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Login
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select password from public.login where password =?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select login_.password, login_.username as username2_4_ from public.login login_ where login_.password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.login (username, password) values (?, ?)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.login set username=? where password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.login where password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2893041e]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [NONE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7e414929]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [READ]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@48d8ed4e]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [UPGRADE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20ab2c49]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [UPGRADE_NOWAIT]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ac53cc2]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [UPGRADE_SKIPLOCKED]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1eb053db]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [FORCE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7890424c]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [PESSIMISTIC_READ]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for share
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@452b946]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [PESSIMISTIC_WRITE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27556291]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [PESSIMISTIC_FORCE_INCREMENT]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update nowait 
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2edc279b]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [OPTIMISTIC]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@11457459]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [OPTIMISTIC_FORCE_INCREMENT]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Login: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Login: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@1eaaf7e8
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Registering SessionFactory: 2fbb8704-c6be-4f67-be5e-d91fae9a1a8f (<unnamed>)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Not binding SessionFactory to JNDI, no JNDI name configured
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiated session factory
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named HQL queries
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named SQL queries
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.stat.internal.StatisticsInitiator  - Statistics initialized [enabled=false]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.event.internal.AbstractSaveEventListener  - Generated identifier: 0001, using strategy: org.hibernate.id.Assigned
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - committing
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Processing flush-time cascades
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Dirty checking collections
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.EntityPrinter  - Listing entities:
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.internal.util.EntityPrinter  - Library.Model.Client{regno=0001, firstName=kodo, lastName=desire, image=C:\Users\jean claude\Pictures\Saved Pictures\New folder\black-r1-5784, emailAddress=kodo@gmail.com, phoneNumber=0789898989, clientCategory=Student}
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.SQL  - insert into public.client (first_name, last_name, phone_number, email_address, client_category, image, regno) values (?, ?, ?, ?, ?, ?, ?)
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - Exception clearing maxRows/queryTimeout [This statement has been closed.]
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - committed JDBC Connection
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl  - HHH000420: Closing un-released batch
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
+[RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
+[pool-1-thread-1] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Connection pool now considered primed; min-size will be maintained
