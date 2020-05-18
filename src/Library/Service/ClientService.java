@@ -5,6 +5,8 @@
  */
 package Library.Service;
 
+import Library.Dao.ClientDao;
+import Library.Model.Client;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -21,6 +23,11 @@ public class ClientService extends UnicastRemoteObject implements IClientService
     @Override
     public boolean save(String regno, String firstName, String lastName, String phoneNumber, String emailAddress, String clientCategory, String image) throws RemoteException {
         
+        Client c = new Client(regno, firstName, lastName, phoneNumber, emailAddress, clientCategory, image);
+        
+        ClientDao cdao = new ClientDao();
+        cdao.saveClient(c);
+        return true;
     }
     
 }
