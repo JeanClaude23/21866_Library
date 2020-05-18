@@ -12,5 +12,6 @@ import java.rmi.Remote;
  * @author jean claude
  */
 public interface IClientService extends Remote{
-    
+    public boolean save(String regno, String firstName, String lastName, String phoneNumber, String emailAddress, 
+            String clientCategory, String image );
 }
