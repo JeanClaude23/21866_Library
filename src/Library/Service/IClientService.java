@@ -6,6 +6,7 @@
 package Library.Service;
 
 import java.rmi.Remote;
+import java.rmi.RemoteException;
 
 /**
  *
@@ -13,5 +14,5 @@ import java.rmi.Remote;
  */
 public interface IClientService extends Remote{
     public boolean save(String regno, String firstName, String lastName, String phoneNumber, String emailAddress, 
-            String clientCategory, String image );
+            String clientCategory, String image )throws RemoteException;
 }
