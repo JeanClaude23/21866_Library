@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  *
  * @author jean claude
  */
-public class ServeRMI {
+public class Server {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.createRegistry(2000);
@@ -27,7 +27,7 @@ public class ServeRMI {
             registry.rebind("bookservice", new BookService());
             System.out.println("Server Started!!");
         } catch (RemoteException ex) {
-            Logger.getLogger(ServeRMI.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }

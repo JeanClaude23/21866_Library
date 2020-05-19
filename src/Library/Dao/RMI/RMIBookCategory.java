@@ -5,7 +5,7 @@
  */
 package Library.Dao.RMI;
 
-import Library.Service.IClientService;
+import Library.Service.IBookCategoryService;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -17,16 +17,15 @@ import java.util.logging.Logger;
  *
  * @author jean claude
  */
-public class ClientRMI {
+public class RMIBookCategory {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.getRegistry("localhost", 2000);
-            IClientService clientservice = (IClientService) registry.lookup("clientservice");
-            boolean result = clientservice.save("0002", "jean_RMI", "CLAUDE", "0788908856", "jean@gmail.com", "Staff", "C:\\Users\\jean claude\\Pictures\\Saved Pictures\\New folder\\black-r1-5784");
-            System.out.println(result ? "Saved Successfully" : "Error. can't saved");
+            IBookCategoryService bookcategoryservice = (IBookCategoryService) registry.lookup("bookcategoryservice");
+            boolean out = bookcategoryservice.save("0002", "Zoology_RMI");
+            System.out.println(out ? "Saved Successfully!!" : "Error. cant't Saved!");
         } catch (RemoteException | NotBoundException ex) {
-            Logger.getLogger(ClientRMI.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(RMIBookCategory.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
     }
 }
