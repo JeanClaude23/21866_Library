@@ -14235,3 +14235,1271 @@ org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique co
 [RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
 [RMI TCP Connection(2)-192.168.56.1] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
 [pool-1-thread-1] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Connection pool now considered primed; min-size will be maintained
+[AWT-EventQueue-0] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@43168f60
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@43168f60
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@43168f60
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6a19fa23
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@52d9a057
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration yes_no -> org.hibernate.type.YesNoType@21037fb5
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@5ead6e98
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@5ead6e98
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5ead6e98
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration character -> org.hibernate.type.CharacterType@54cdb301
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char -> org.hibernate.type.CharacterType@54cdb301
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@54cdb301
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@293202b4
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@293202b4
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@293202b4
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration integer -> org.hibernate.type.IntegerType@66f9cb9a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration int -> org.hibernate.type.IntegerType@66f9cb9a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@66f9cb9a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@7386df64
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@7386df64
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@7386df64
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@6a7b3336
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@6a7b3336
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6a7b3336
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@3d182d6d
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@3d182d6d
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@3d182d6d
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@137c3e1a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@137c3e1a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@707475b9
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@707475b9
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration string -> org.hibernate.type.StringType@3e38f2fa
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.String -> org.hibernate.type.StringType@3e38f2fa
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@41f50905
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@ddb6efc
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration url -> org.hibernate.type.UrlType@79615717
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@79615717
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration date -> org.hibernate.type.DateType@2df1abb2
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@2df1abb2
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration time -> org.hibernate.type.TimeType@588910d7
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@588910d7
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timestamp -> org.hibernate.type.TimestampType@50a2de84
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@50a2de84
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@50a2de84
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@292daa4a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar -> org.hibernate.type.CalendarType@303c2787
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@303c2787
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@303c2787
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@675cd251
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration locale -> org.hibernate.type.LocaleType@3fcd8393
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3fcd8393
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration currency -> org.hibernate.type.CurrencyType@5f5088f4
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5f5088f4
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@44036660
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@44036660
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration class -> org.hibernate.type.ClassType@5df7f5b1
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5df7f5b1
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@70285b79
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@70285b79
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@50f881c1
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@70d98b14
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration binary -> org.hibernate.type.BinaryType@5cefc97a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte[] -> org.hibernate.type.BinaryType@5cefc97a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [B -> org.hibernate.type.BinaryType@5cefc97a
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2ead1d31
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2ead1d31
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2ead1d31
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration image -> org.hibernate.type.ImageType@7a376057
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration characters -> org.hibernate.type.CharArrayType@494cbde3
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char[] -> org.hibernate.type.CharArrayType@494cbde3
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [C -> org.hibernate.type.CharArrayType@494cbde3
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6162f16
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6162f16
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6162f16
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration text -> org.hibernate.type.TextType@5826d195
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ntext -> org.hibernate.type.NTextType@435ed651
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration blob -> org.hibernate.type.BlobType@35a07e50
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@35a07e50
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@90e6042
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration clob -> org.hibernate.type.ClobType@4e022678
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4e022678
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nclob -> org.hibernate.type.NClobType@15850d95
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@15850d95
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1a7bc07c
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5a7d81aa
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration serializable -> org.hibernate.type.SerializableType@1c718f09
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration object -> org.hibernate.type.ObjectType@5c6d1460
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5c6d1460
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@482238c1
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7cd8fbb1
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4469fc1
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3e58f77
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5ad84bfa
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@61e63663
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@51ee1509
+[AWT-EventQueue-0] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7edfa674
+[AWT-EventQueue-0] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+[AWT-EventQueue-0] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.1.Final}
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000040: Configuration resource: /hibernate.cfg.xml
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+[AWT-EventQueue-0] WARN  org.hibernate.internal.util.xml.DTDEntityResolver  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Attempting to resolve on classpath under org/hibernate/
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.driver_class=org.postgresql.Driver
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.url=jdbc:postgresql://localhost:5432/librarySystem
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.username=postgres
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.password=21866
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - hibernate.connection.pool_size=20
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Client.hbm.xml] for mapping
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Client.hbm.xml
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Bookcategory.hbm.xml] for mapping
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Bookcategory.hbm.xml
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Login.hbm.xml] for mapping
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Login.hbm.xml
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Checkout.hbm.xml] for mapping
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Checkout.hbm.xml
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [Library/Model/Book.hbm.xml] for mapping
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: Library/Model/Book.hbm.xml
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+[AWT-EventQueue-0] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Properties: {hibernate.connection.password=21866, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_111\jre\bin, java.vm.version=25.111-b14, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation, java.runtime.version=1.8.0_111-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\JEANCL~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\jean claude\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jean claude\AppData\Local\GitHubDesktop\bin;., sun.awt.enableExtraMouseButtons=true, java.specification.name=Java Platform API Specification, java.class.version=52.0, hibernate.connection.pool_size=20, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\jean claude, user.timezone=Africa/Harare, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, java.specification.version=1.8, hibernate.connection.driver_class=org.postgresql.Driver, java.class.path=D:\2020 tutorial\Java\Java\jcalendar-1.4.jar\jcalendar-1.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\postgresql-9.4.1209.jar;D:\2020 tutorial\Java\rs2xml\rs2xml.jar;E:\Java\jar_files\bcrypt-0.4.1.jar;E:\Java\jar_files\bytes-0.4.6.jar;E:\Java\jar_files (1)\jBCrypt-0.4.1.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derbyclient.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derby.jar;D:\poi-4.1.2\lib\SparseBitSet-1.2.jar;D:\poi-4.1.2\lib\activation-1.1.1.jar;D:\poi-4.1.2\lib\commons-codec-1.13.jar;D:\poi-4.1.2\lib\commons-collections4-4.4.jar;D:\poi-4.1.2\lib\commons-compress-1.19.jar;D:\poi-4.1.2\lib\commons-logging-1.2.jar;D:\poi-4.1.2\lib\commons-math3-3.6.1.jar;D:\poi-4.1.2\lib\jaxb-api-2.3.1.jar;D:\poi-4.1.2\lib\jaxb-core-2.3.0.1.jar;D:\poi-4.1.2\lib\jaxb-impl-2.3.2.jar;D:\poi-4.1.2\lib\junit-4.12.jar;D:\poi-4.1.2\lib\log4j-1.2.17.jar;D:\poi-4.1.2\ooxml-lib\curvesapi-1.06.jar;D:\poi-4.1.2\ooxml-lib\xmlbeans-3.1.0.jar;D:\poi-4.1.2\poi-4.1.2.jar;D:\poi-4.1.2\poi-examples-4.1.2.jar;D:\poi-4.1.2\poi-excelant-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-schemas-4.1.2.jar;D:\poi-4.1.2\poi-scratchpad-4.1.2.jar;E:\log4j-1.2.17.jar;C:\Users\jean claude\Downloads\Compressed\itextpdf-5.1.0.jar\itextpdf-5.1.0.jar;C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation\build\classes, user.name=jean claude, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.java.command=Library.View.OperationView, java.home=C:\Program Files\Java\jdk1.8.0_111\jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:postgresql://localhost:5432/librarySystem, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_111, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, sun.cpu.isalist=amd64}
+[AWT-EventQueue-0] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[AWT-EventQueue-0] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[AWT-EventQueue-0] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[AWT-EventQueue-0] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[AWT-EventQueue-0] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[AWT-EventQueue-0] DEBUG org.hibernate.service.spi.ServiceBinding  - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Preparing to build session factory with filters : {}
+[AWT-EventQueue-0] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/librarySystem]
+[AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=postgres, password=21866}
+[AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+[AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Initializing Connection pool with 1 Connections
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Database ->
+       name : PostgreSQL
+    version : 11.2
+      major : 11
+      minor : 2
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Driver ->
+       name : PostgreSQL Native Driver
+    version : PostgreSQL 9.4.1209
+      major : 9
+      minor : 4
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - JDBC version : 4.0
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.cursor.internal.StandardRefCursorSupport  - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+[AWT-EventQueue-0] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[AWT-EventQueue-0] INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Client -> client
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: regno -> regno
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: firstName -> first_name
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: lastName -> last_name
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: phoneNumber -> phone_number
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: emailAddress -> email_address
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: clientCategory -> client_category
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: image -> image
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Bookcategory -> bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: categoryid -> categoryid
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: categoryname -> categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Login -> login
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: password -> password
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: username -> username
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Checkout -> checkout
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: clientname -> clientname
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: bookname -> bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: author -> author
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: returndate -> returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: status -> status
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: Library.Model.Book -> book
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: bookId -> book_id
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: title -> title
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: publishinghouse -> publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: dateofpublication -> dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: author -> author
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: pages -> pages
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: bookcategory -> bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - No JtaPlatform was specified, checking resolver
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator  - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver  - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Wrap result sets: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - multi-tenancy strategy : NONE
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+[AWT-EventQueue-0] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Using BatchFetchStyle : LEGACY
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Default null ordering: none
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+[AWT-EventQueue-0] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator  - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache direct-reference entries: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic eviction of collection cache: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - Allow initialization of lazy state outside session : : disabled
+[AWT-EventQueue-0] DEBUG org.hibernate.cfg.SettingsFactory  - JTA Track by Thread: enabled
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.SessionFactoryImpl  - Building session factory
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.SessionFactoryImpl  - Session factory constructed with filter configurations : {}
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=21866, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_111\jre\bin, java.vm.version=25.111-b14, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation, java.runtime.version=1.8.0_111-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\JEANCL~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_111\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Users\jean claude\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jean claude\AppData\Local\GitHubDesktop\bin;., sun.awt.enableExtraMouseButtons=true, java.specification.name=Java Platform API Specification, java.class.version=52.0, hibernate.connection.pool_size=20, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\jean claude, user.timezone=Africa/Harare, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.8, file.encoding=UTF-8, hibernate.connection.driver_class=org.postgresql.Driver, user.name=jean claude, java.class.path=D:\2020 tutorial\Java\Java\jcalendar-1.4.jar\jcalendar-1.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Program Files\NetBeans 8.2\ide\modules\ext\postgresql-9.4.1209.jar;D:\2020 tutorial\Java\rs2xml\rs2xml.jar;E:\Java\jar_files\bcrypt-0.4.1.jar;E:\Java\jar_files\bytes-0.4.6.jar;E:\Java\jar_files (1)\jBCrypt-0.4.1.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derbyclient.jar;C:\Program Files\Java\jdk1.8.0_111\db\lib\derby.jar;D:\poi-4.1.2\lib\SparseBitSet-1.2.jar;D:\poi-4.1.2\lib\activation-1.1.1.jar;D:\poi-4.1.2\lib\commons-codec-1.13.jar;D:\poi-4.1.2\lib\commons-collections4-4.4.jar;D:\poi-4.1.2\lib\commons-compress-1.19.jar;D:\poi-4.1.2\lib\commons-logging-1.2.jar;D:\poi-4.1.2\lib\commons-math3-3.6.1.jar;D:\poi-4.1.2\lib\jaxb-api-2.3.1.jar;D:\poi-4.1.2\lib\jaxb-core-2.3.0.1.jar;D:\poi-4.1.2\lib\jaxb-impl-2.3.2.jar;D:\poi-4.1.2\lib\junit-4.12.jar;D:\poi-4.1.2\lib\log4j-1.2.17.jar;D:\poi-4.1.2\ooxml-lib\curvesapi-1.06.jar;D:\poi-4.1.2\ooxml-lib\xmlbeans-3.1.0.jar;D:\poi-4.1.2\poi-4.1.2.jar;D:\poi-4.1.2\poi-examples-4.1.2.jar;D:\poi-4.1.2\poi-excelant-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-4.1.2.jar;D:\poi-4.1.2\poi-ooxml-schemas-4.1.2.jar;D:\poi-4.1.2\poi-scratchpad-4.1.2.jar;E:\log4j-1.2.17.jar;C:\Users\jean claude\Downloads\Compressed\itextpdf-5.1.0.jar\itextpdf-5.1.0.jar;C:\Users\jean claude\Documents\NetBeansProjects\LibrarySystem_Hibernation\build\classes, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.8.0_111\jre, sun.java.command=Library.View.OperationView, hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, hibernate.connection.url=jdbc:postgresql://localhost:5432/librarySystem, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_111, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_111\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_111\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_111\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_111\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+[AWT-EventQueue-0] DEBUG org.hibernate.secure.spi.JaccIntegrator  - Skipping JACC integration as it was not enabled
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[AWT-EventQueue-0] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQLDialect]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Client
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select regno from public.client where regno =?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select client_.regno, client_.first_name as first_na2_3_, client_.last_name as last_nam3_3_, client_.phone_number as phone_nu4_3_, client_.email_address as email_ad5_3_, client_.client_category as client_c6_3_, client_.image as image7_3_ from public.client client_ where client_.regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.client (first_name, last_name, phone_number, email_address, client_category, image, regno) values (?, ?, ?, ?, ?, ?, ?)
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.client set first_name=?, last_name=?, phone_number=?, email_address=?, client_category=?, image=? where regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.client where regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7491c6b2]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [NONE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@403bb63f]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [READ]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4ed986d]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [UPGRADE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@46c51a41]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [UPGRADE_NOWAIT]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12f130ca]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [UPGRADE_SKIPLOCKED]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@313d5170]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [FORCE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6fab089d]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [PESSIMISTIC_READ]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for share
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4901ddc8]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [PESSIMISTIC_WRITE]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@32dff873]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [PESSIMISTIC_FORCE_INCREMENT]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2ad31f1]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [OPTIMISTIC]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@757cf70b]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : firstName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastName
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : phoneNumber
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : emailAddress
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : clientCategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : image
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Client)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Client, querySpaceUid=<gen:0>, path=Library.Model.Client)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Client)
+          - SQL table alias mapping - client0_
+          - alias suffix - 0_
+          - suffixed key columns - {regno1_3_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Client [OPTIMISTIC_FORCE_INCREMENT]: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Client: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Client: select client0_.regno as regno1_3_0_, client0_.first_name as first_na2_3_0_, client0_.last_name as last_nam3_3_0_, client0_.phone_number as phone_nu4_3_0_, client0_.email_address as email_ad5_3_0_, client0_.client_category as client_c6_3_0_, client0_.image as image7_3_0_ from public.client client0_ where client0_.regno=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Book
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select book_id from public.book where book_id =?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select book_.book_id, book_.title as title2_0_, book_.publishinghouse as publishi3_0_, book_.dateofpublication as dateofpu4_0_, book_.author as author5_0_, book_.pages as pages6_0_, book_.bookcategory as bookcate7_0_ from public.book book_ where book_.book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.book (title, publishinghouse, dateofpublication, author, pages, bookcategory, book_id) values (?, ?, ?, ?, ?, ?, ?)
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.book set title=?, publishinghouse=?, dateofpublication=?, author=?, pages=?, bookcategory=? where book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.book where book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5dd9af80]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [NONE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4accab10]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [READ]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@734b195]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [UPGRADE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2a0d9e9b]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [UPGRADE_NOWAIT]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12c61eee]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [UPGRADE_SKIPLOCKED]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@353162b3]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [FORCE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@503057fb]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [PESSIMISTIC_READ]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for share
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@12e4143e]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [PESSIMISTIC_WRITE]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@46c1e993]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [PESSIMISTIC_FORCE_INCREMENT]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2eed5de5]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [OPTIMISTIC]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@149d33de]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : title
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : publishinghouse
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : dateofpublication
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : pages
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Book)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Book, querySpaceUid=<gen:0>, path=Library.Model.Book)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Book)
+          - SQL table alias mapping - book0_
+          - alias suffix - 0_
+          - suffixed key columns - {book_id1_0_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Book [OPTIMISTIC_FORCE_INCREMENT]: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Book: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Book: select book0_.book_id as book_id1_0_0_, book0_.title as title2_0_0_, book0_.publishinghouse as publishi3_0_0_, book0_.dateofpublication as dateofpu4_0_0_, book0_.author as author5_0_0_, book0_.pages as pages6_0_0_, book0_.bookcategory as bookcate7_0_0_ from public.book book0_ where book0_.book_id=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Bookcategory
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select categoryid from public.bookcategory where categoryid =?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select bookcatego_.categoryid, bookcatego_.categoryname as category2_1_ from public.bookcategory bookcatego_ where bookcatego_.categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.bookcategory (categoryname, categoryid) values (?, ?)
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.bookcategory set categoryname=? where categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.bookcategory where categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1bf72598]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [NONE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@75677603]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [READ]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@235058c]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [UPGRADE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@948da1f]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [UPGRADE_NOWAIT]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6209625f]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [UPGRADE_SKIPLOCKED]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@611fe7d9]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [FORCE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50b2ed21]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [PESSIMISTIC_READ]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for share
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@22e8d7c6]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [PESSIMISTIC_WRITE]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f903bd9]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [PESSIMISTIC_FORCE_INCREMENT]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7982b698]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [OPTIMISTIC]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f169ec8]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : categoryname
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Bookcategory)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Bookcategory, querySpaceUid=<gen:0>, path=Library.Model.Bookcategory)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Bookcategory)
+          - SQL table alias mapping - bookcatego0_
+          - alias suffix - 0_
+          - suffixed key columns - {category1_1_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Bookcategory [OPTIMISTIC_FORCE_INCREMENT]: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Bookcategory: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Bookcategory: select bookcatego0_.categoryid as category1_1_0_, bookcatego0_.categoryname as category2_1_0_ from public.bookcategory bookcatego0_ where bookcatego0_.categoryid=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Checkout
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select clientname from public.checkout where clientname =?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select checkout_.clientname, checkout_.bookname as bookname2_2_, checkout_.author as author3_2_, checkout_.returndate as returnda4_2_, checkout_.status as status5_2_ from public.checkout checkout_ where checkout_.clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.checkout (bookname, author, returndate, status, clientname) values (?, ?, ?, ?, ?)
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.checkout set bookname=?, author=?, returndate=?, status=? where clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.checkout where clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2ec1a164]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [NONE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35a2f2ce]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [READ]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b035e7a]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [UPGRADE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3914d484]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [UPGRADE_NOWAIT]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@50e3cbf0]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [UPGRADE_SKIPLOCKED]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47cba089]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [FORCE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d06ab0c]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [PESSIMISTIC_READ]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for share
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38375f23]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [PESSIMISTIC_WRITE]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61b2c88d]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [PESSIMISTIC_FORCE_INCREMENT]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@52cdc9dd]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [OPTIMISTIC]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@e8071ef]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : bookname
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : author
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : returndate
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : status
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Checkout)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Checkout, querySpaceUid=<gen:0>, path=Library.Model.Checkout)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Checkout)
+          - SQL table alias mapping - checkout0_
+          - alias suffix - 0_
+          - suffixed key columns - {clientna1_2_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Checkout [OPTIMISTIC_FORCE_INCREMENT]: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Checkout: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Checkout: select checkout0_.clientname as clientna1_2_0_, checkout0_.bookname as bookname2_2_0_, checkout0_.author as author3_2_0_, checkout0_.returndate as returnda4_2_0_, checkout0_.status as status5_2_0_ from public.checkout checkout0_ where checkout0_.clientname=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: Library.Model.Login
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select password from public.login where password =?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select login_.password, login_.username as username2_4_ from public.login login_ where login_.password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into public.login (username, password) values (?, ?)
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update public.login set username=? where password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from public.login where password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68b18e79]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [NONE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@15057853]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [READ]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5438c04d]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [UPGRADE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4908dc67]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [UPGRADE_NOWAIT]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@196f11f0]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [UPGRADE_SKIPLOCKED]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6eab7c78]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [FORCE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@384935e2]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [PESSIMISTIC_READ]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for share
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@179f9c4e]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [PESSIMISTIC_WRITE]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7da676d9]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [PESSIMISTIC_FORCE_INCREMENT]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=? for update nowait 
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2785b947]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [OPTIMISTIC]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68cfe6ee]
+[AWT-EventQueue-0] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : username
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=Library.Model.Login)
+    - Returns
+       - EntityReturnImpl(entity=Library.Model.Login, querySpaceUid=<gen:0>, path=Library.Model.Login)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=Library.Model.Login)
+          - SQL table alias mapping - login0_
+          - alias suffix - 0_
+          - suffixed key columns - {password1_4_0_}
+
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity Library.Model.Login [OPTIMISTIC_FORCE_INCREMENT]: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity Library.Model.Login: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity Library.Model.Login: select login0_.password as password1_4_0_, login0_.username as username2_4_0_ from public.login login0_ where login0_.password=?
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@24c42b54
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Registering SessionFactory: ab8eb97c-f399-442b-9e91-c4e7a5a3d419 (<unnamed>)
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Not binding SessionFactory to JNDI, no JNDI name configured
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiated session factory
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named HQL queries
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named SQL queries
+[AWT-EventQueue-0] DEBUG org.hibernate.stat.internal.StatisticsInitiator  - Statistics initialized [enabled=false]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+[AWT-EventQueue-0] DEBUG org.hibernate.SQL  - select this_.clientname as clientna1_2_0_, this_.bookname as bookname2_2_0_, this_.author as author3_2_0_, this_.returndate as returnda4_2_0_, this_.status as status5_2_0_ from public.checkout this_
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result set row: 0
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[Library.Model.Checkout#paola]
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result set row: 1
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[Library.Model.Checkout#cyusa]
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result set row: 2
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[Library.Model.Checkout#kamana]
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result set row: 3
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[Library.Model.Checkout#cuba]
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result set row: 4
+[AWT-EventQueue-0] DEBUG org.hibernate.loader.Loader  - Result row: EntityKey[Library.Model.Checkout#papy]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [Library.Model.Checkout#paola]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [Library.Model.Checkout#paola]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [Library.Model.Checkout#cyusa]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [Library.Model.Checkout#cyusa]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [Library.Model.Checkout#kamana]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [Library.Model.Checkout#kamana]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [Library.Model.Checkout#cuba]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [Library.Model.Checkout#cuba]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Resolving associations for [Library.Model.Checkout#papy]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.internal.TwoPhaseLoad  - Done materializing entity [Library.Model.Checkout#papy]
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - committing
+[AWT-EventQueue-0] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Processing flush-time cascades
+[AWT-EventQueue-0] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Dirty checking collections
+[AWT-EventQueue-0] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 insertions, 0 updates, 0 deletions to 5 objects
+[AWT-EventQueue-0] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.EntityPrinter  - Listing entities:
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.EntityPrinter  - Library.Model.Checkout{returndate=2020-05-24, author=Kodo, clientname=paola, bookname=JavaPro, status=Check In}
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.EntityPrinter  - Library.Model.Checkout{returndate=2020-05-22, author=elie, clientname=cuba, bookname=Power, status=Check Out}
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.EntityPrinter  - Library.Model.Checkout{returndate=2020-06-17, author=kalisa, clientname=cyusa, bookname=ubumuntu, status=Check Out}
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.EntityPrinter  - Library.Model.Checkout{returndate=2020-05-29, author=vivien, clientname=kamana, bookname=Stack, status=Check In}
+[AWT-EventQueue-0] DEBUG org.hibernate.internal.util.EntityPrinter  - Library.Model.Checkout{returndate=2020-05-21, author=desire, clientname=papy, bookname=filenavigation, status=Check In}
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - committed JDBC Connection
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Releasing JDBC connection
+[AWT-EventQueue-0] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Released JDBC connection
+[pool-1-thread-1] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Connection pool now considered primed; min-size will be maintained
