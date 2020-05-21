@@ -8,6 +8,7 @@ package Library.Dao.RMI;
 import Library.Service.BookCategoryService;
 import Library.Service.BookService;
 import Library.Service.ClientService;
+import Library.Service.OperationService;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
@@ -25,6 +26,7 @@ public class Server {
             registry.rebind("clientservice", new ClientService());
             registry.rebind("bookcategoryservice", new BookCategoryService());
             registry.rebind("bookservice", new BookService());
+            registry.rebind("operationservice", new OperationService());
             System.out.println("Server Started!!");
         } catch (RemoteException ex) {
             Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
