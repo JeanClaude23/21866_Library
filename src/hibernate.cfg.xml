@@ -47,6 +47,7 @@ Contributor(s):
     <property name="hibernate.connection.username">postgres</property>
     <property name="hibernate.connection.password">21866</property>
     <property name="hibernate.connection.pool_size">20</property>
+    <property name="hibernate.hbm2ddl.auto">validate</property>
     <mapping resource="Library/Model/Client.hbm.xml"/>
     <mapping resource="Library/Model/Bookcategory.hbm.xml"/>
     <mapping resource="Library/Model/Login.hbm.xml"/>
