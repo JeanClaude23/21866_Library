@@ -22,7 +22,7 @@ public class RMIOperation {
         try {
             Registry registry = LocateRegistry.getRegistry("localhost", 2000);
             IOperationService operationservice = (IOperationService) registry.lookup("operationservice");
-            boolean opera = operationservice.save("kamana", "RMI_linux", "jerome", "2020-06-13", "CheckOut");
+            boolean opera = operationservice.save("kamana", "RMI_linux", "jerome", "2019-04-13", "Checkin");
             System.out.println(opera ? "Saved Successfully!!" : "Error. can't be Saved!!");
         } catch (RemoteException | NotBoundException ex) {
             Logger.getLogger(RMIOperation.class.getName()).log(Level.SEVERE, null, ex);
