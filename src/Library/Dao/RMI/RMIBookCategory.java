@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 public class RMIBookCategory {
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.getRegistry("localhost", 2000);
+            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1201);
             IBookCategoryService bookcategoryservice = (IBookCategoryService) registry.lookup("bookcategoryservice");
             boolean out = bookcategoryservice.save("0003", "conoservation_RMI");
             System.out.println(out ? "Saved Successfully!!" : "Error. cant't Saved!");

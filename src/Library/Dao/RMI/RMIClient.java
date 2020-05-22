@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 public class RMIClient {
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.getRegistry("localhost", 2000);
+            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1201);
             IClientService clientservice = (IClientService) registry.lookup("clientservice");
             boolean result = clientservice.save("0002", "jean_RMI", "CLAUDE", "0788908856", "jean@gmail.com", "Staff", "C:\\Users\\jean claude\\Pictures\\Saved Pictures\\New folder\\black-r1-5784");
             System.out.println(result ? "Saved Successfully" : "Error. can't saved");

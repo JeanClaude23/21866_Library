@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 public class RMIBook {
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.getRegistry("localhost", 2000);
+            Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1201);
             IBookService bookservice = (IBookService) registry.lookup("bookservice");
             boolean out = bookservice.save("0001", "loi_d'Afrique","France_lib", "1978-01-30", "Claude", 12345, "Francais");
             System.err.println(out ? "Saved Successfully!!" : "Error Ocurred. Can't Saved ");

@@ -22,7 +22,7 @@ import java.util.logging.Logger;
 public class Server {
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.createRegistry(2000);
+            Registry registry = LocateRegistry.createRegistry(1201);
             registry.rebind("clientservice", new ClientService());
             registry.rebind("bookcategoryservice", new BookCategoryService());
             registry.rebind("bookservice", new BookService());
