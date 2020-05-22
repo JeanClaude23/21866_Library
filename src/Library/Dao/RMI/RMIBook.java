@@ -22,7 +22,7 @@ public class RMIBook {
         try {
             Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1201);
             IBookService bookservice = (IBookService) registry.lookup("bookservice");
-            boolean out = bookservice.save("0001", "loi_d'Afrique","France_lib", "1978-01-30", "Claude", 12345, "Francais");
+            boolean out = bookservice.save("0002", "Right","Rwanda_lib", "1920-05-12", "Rwema", 4321, "Kinya");
             System.err.println(out ? "Saved Successfully!!" : "Error Ocurred. Can't Saved ");
         } catch (RemoteException | NotBoundException ex) {
             Logger.getLogger(RMIBook.class.getName()).log(Level.SEVERE, null, ex);

@@ -22,7 +22,7 @@ public class RMIBookCategory {
         try {
             Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1201);
             IBookCategoryService bookcategoryservice = (IBookCategoryService) registry.lookup("bookcategoryservice");
-            boolean out = bookcategoryservice.save("0003", "conoservation_RMI");
+            boolean out = bookcategoryservice.save("0004", "javac_RMI");
             System.out.println(out ? "Saved Successfully!!" : "Error. cant't Saved!");
         } catch (RemoteException | NotBoundException ex) {
             Logger.getLogger(RMIBookCategory.class.getName()).log(Level.SEVERE, null, ex);

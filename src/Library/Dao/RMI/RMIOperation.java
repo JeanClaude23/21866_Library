@@ -17,15 +17,15 @@ import java.util.logging.Logger;
  *
  * @author jean claude
  */
-public class RMICheckout {
+public class RMIOperation {
     public static void main(String[] args) {
         try {
             Registry registry = LocateRegistry.getRegistry("127.0.0.1", 1201);
             IOperationService operationservice = (IOperationService) registry.lookup("operationservice");
-            boolean result = operationservice.save("kamana", "RMI_linux", "jerome", "2019-05-13", "Check out");
+            boolean result = operationservice.save("Alex", "RMI_java", "erneus", "2000-05-13", "Check In");
             System.out.println(result ? "Saved Successfully!!" : "Error. can't be Saved!!");
         } catch (RemoteException | NotBoundException ex) {
-            Logger.getLogger(RMICheckout.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(RMIOperation.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 }
