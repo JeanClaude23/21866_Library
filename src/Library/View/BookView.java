@@ -6,6 +6,8 @@
 package Library.View;
 
 
+import Interfaces.BookCategoryInterface;
+import Interfaces.BookInterface;
 import Library.Dao.BookDao;
 import Library.Model.Book;
 import Library.Model.Bookcategory;
@@ -17,17 +19,24 @@ import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import java.lang.String;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author jean claude
  */
 public class BookView extends javax.swing.JFrame {
-
+    Registry registry = LocateRegistry.getRegistry(6000);
+    BookInterface bk = (BookInterface) registry.lookup("Ibook");
+    Registry reg = LocateRegistry.getRegistry(1000);
+    BookCategoryInterface bc = (BookCategoryInterface) reg.lookup("Ibookcategory");
     /**
      * Creates new form BookForm
      */
-    public BookView() {
+    public BookView() throws Exception{
         initComponents();
         clear_fields();
         clear_fields2();
@@ -537,7 +546,11 @@ public class BookView extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new BookView().setVisible(true);
+                try {
+                    new BookView().setVisible(true);
+                } catch (Exception ex) {
+                    Logger.getLogger(BookView.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
     }

@@ -5,8 +5,13 @@
  */
 package Library.View;
 
+import Interfaces.LoginInterface;
 import Library.Dao.LoginDao;
 import Library.Model.Login;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
@@ -14,11 +19,12 @@ import javax.swing.JOptionPane;
  * @author jean claude
  */
 public class LoginFormView extends javax.swing.JFrame {
-
+    Registry registry = LocateRegistry.getRegistry(6004);
+    LoginInterface li = (LoginInterface) registry.lookup("Ilogin");
     /**
      * Creates new form EncryptionView
      */
-    public LoginFormView() {
+    public LoginFormView() throws Exception{
         initComponents();
         clear_fields();
         setTitle("Login Form");
@@ -182,7 +188,11 @@ public class LoginFormView extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new LoginFormView().setVisible(true);
+                try {
+                    new LoginFormView().setVisible(true);
+                } catch (Exception ex) {
+                    Logger.getLogger(LoginFormView.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
     }

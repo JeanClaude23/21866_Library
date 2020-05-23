@@ -5,30 +5,34 @@
  */
 package Library.View;
 
+import Interfaces.OperationInterface;
 import Library.Dao.CheckOutDao;
 import Library.Model.Checkout;
 import Library.Util.HibernateUtil;
 import java.awt.Image;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.util.Iterator;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.hibernate.SQLQuery;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.jboss.logging.Logger;
-
 /**
  *
  * @author jean claude
  */
 public class OperationView extends javax.swing.JFrame {
-
+    Registry reg = LocateRegistry.getRegistry(6003);
+    OperationInterface op = (OperationInterface) reg.lookup("Ioperation");
     /**
      * Creates new form CheckInOut
      */
-    public OperationView() {
+    public OperationView() throws Exception{
         initComponents();
         PopulateCheckOut();
         setTitle("Operation Records");
@@ -567,7 +571,11 @@ public class OperationView extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new OperationView().setVisible(true);
+                try {
+                    new OperationView().setVisible(true);
+                } catch (Exception ex) {
+                    Logger.getLogger(OperationView.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
     }

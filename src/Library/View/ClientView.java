@@ -26,7 +26,7 @@ import javax.swing.table.DefaultTableModel;
  * @author jean claude
  */
 public class ClientView extends javax.swing.JFrame {
-    Registry registry = LocateRegistry.getRegistry(6000);
+    Registry registry = LocateRegistry.getRegistry(6001);
     ClientInterface cl = (ClientInterface) registry.lookup("Iclient");
     /**
      * Creates new form ClientForm

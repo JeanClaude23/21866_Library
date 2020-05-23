@@ -6,7 +6,6 @@
 package RMI_Server;
 
 import Interfaces.ClientInterface;
-import Library.Dao.ClientDao;
 import Library.Model.Client;
 import Library.Util.HibernateUtil;
 import java.rmi.RemoteException;
@@ -29,9 +28,9 @@ public class ClientServer extends UnicastRemoteObject implements ClientInterface
     }
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.createRegistry(6000);
+            Registry registry = LocateRegistry.createRegistry(6001);
             registry.rebind("Iclient", new ClientServer());
-            System.out.println("ClientServer Started...");
+            System.out.println("ClientServer Started!!...");
         } catch (RemoteException ex) {
             Logger.getLogger(ClientServer.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -5,6 +5,9 @@
  */
 package Library.View;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author jean claude
@@ -94,22 +97,34 @@ public class LibrarySystem extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void menuClientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuClientActionPerformed
-        // TODO add your handling code here:
-        ClientView cl = new ClientView();
-        cl.setVisible(true);
+        try {
+            // TODO add your handling code here:
+            ClientView cl = new ClientView();
+            cl.setVisible(true);
+        } catch (Exception ex) {
+            Logger.getLogger(LibrarySystem.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_menuClientActionPerformed
 
     private void menuOperationMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuOperationMouseClicked
-        // TODO add your handling code here:
-        OperationView op = new OperationView();
-        op.setVisible(true);
+        try {
+            // TODO add your handling code here:
+            OperationView op = new OperationView();
+            op.setVisible(true);
+        } catch (Exception ex) {
+            Logger.getLogger(LibrarySystem.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_menuOperationMouseClicked
 
     private void menuBookActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuBookActionPerformed
-        // TODO add your handling code here:
-        BookView bk = new BookView();
-        //bk.setVisible(true);
-        bk.show();
+        try {
+            // TODO add your handling code here:
+            BookView bk = new BookView();
+            //bk.setVisible(true);
+            bk.show();
+        } catch (Exception ex) {
+            Logger.getLogger(LibrarySystem.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }//GEN-LAST:event_menuBookActionPerformed
 
     /**
