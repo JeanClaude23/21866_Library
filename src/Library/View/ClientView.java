@@ -5,11 +5,16 @@
  */
 package Library.View;
 
+import Interfaces.ClientInterface;
 import Library.Dao.ClientDao;
 import Library.Model.Client;
 import java.awt.Image;
 import java.io.File;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
@@ -21,12 +26,14 @@ import javax.swing.table.DefaultTableModel;
  * @author jean claude
  */
 public class ClientView extends javax.swing.JFrame {
+    Registry registry = LocateRegistry.getRegistry(6000);
+    ClientInterface cl = (ClientInterface) registry.lookup("Iclient");
     /**
      * Creates new form ClientForm
      */
     String FilePath;
     ImageIcon img;
-    public ClientView() {
+    public ClientView() throws Exception{
         initComponents();
         free_fields();
         setTitle("Client Information");
@@ -366,7 +373,11 @@ public class ClientView extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ClientView().setVisible(true);
+                try {
+                    new ClientView().setVisible(true);
+                } catch (Exception ex) {
+                    Logger.getLogger(ClientView.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
         });
     }
