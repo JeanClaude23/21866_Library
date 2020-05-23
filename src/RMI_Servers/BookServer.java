@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package RMI_Server;
+package RMI_Servers;
 
-import Interfaces.ClientInterface;
-import Library.Model.Client;
+import Interfaces.BookInterface;
+import Library.Model.Book;
 import Library.Util.HibernateUtil;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -21,46 +21,44 @@ import org.hibernate.Transaction;
  *
  * @author jean claude
  */
-public class ClientServer extends UnicastRemoteObject implements ClientInterface{
+public class BookServer extends UnicastRemoteObject implements BookInterface{
 
-    public ClientServer() throws RemoteException {
-        super();
+    public BookServer() throws RemoteException {
     }
     public static void main(String[] args) {
         try {
-            Registry registry = LocateRegistry.createRegistry(6001);
-            registry.rebind("Iclient", new ClientServer());
-            System.out.println("ClientServer Started!!...");
+            Registry registry = LocateRegistry.createRegistry(6000);
+            registry.rebind("Ibook", new BookServer());
+            System.out.println("BookServer Started!!...");
         } catch (RemoteException ex) {
-            Logger.getLogger(ClientServer.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(BookServer.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
+    @Override
+    public void save(Book b) throws RemoteException {
+        Session sess = HibernateUtil.getSessionFactory().openSession();
+        Transaction trans = sess.beginTransaction();
+        sess.save(b);
+        trans.commit();
+        sess.close();
     }
 
     @Override
-    public void save(Client c) throws RemoteException {
+    public void update(Book b) throws RemoteException {
         Session sess = HibernateUtil.getSessionFactory().openSession();
         Transaction trans = sess.beginTransaction();
-        sess.save(c);
+        sess.update(b);
         trans.commit();
         sess.close();
-         }
+    }
 
     @Override
-    public void update(Client c) throws RemoteException {
+    public void delete(Book b) throws RemoteException {
         Session sess = HibernateUtil.getSessionFactory().openSession();
         Transaction trans = sess.beginTransaction();
-        sess.update(c);
+        sess.delete(b);
         trans.commit();
         sess.close();
-         }
-
-    @Override
-    public void delete(Client c) throws RemoteException {
-        Session sess = HibernateUtil.getSessionFactory().openSession();
-        Transaction trans = sess.beginTransaction();
-        sess.delete(c);
-        trans.commit();
-        sess.close();
-        }
+    }
     
 }
